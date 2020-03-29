@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  Initial screen -->
+    <string name="app_name">WidgetsAmpliado</string>
+    <string name="Etiqueta_muestrabotones">Muestra Botones</string>
+    <string name="Etiqueta_muestraspinners">Muestra Spinners</string>
+    <string name="Etiqueta_muestralistview">Muestra ListView</string>
+    <string name="Etiqueta_muestraGridview">Muestra GridView</string>
+    
+    <!-- Buttons example -->
+    <string name="button_app_name">Botones y otros widgets clicables</string>
+    <string name="hola">Hola !</string>
+    <string name="adios">Adios !</string>
+    <string name="chao">Chao !</string>
+    <string name="plantilla_mensaje_boton">Has clicado el boton \'%s\' .</string>
+    
+    <string name="plantilla_mensaje_radio">Has clicado el radio button \'%s\' .</string>
+    <string name="plantilla_mensaje_check" formatted="false">Has clicado el checkbox \'%s\' . Ahora está %s. </string>
+    
+    <string name="plantilla_mensaje_imagebutton"> Has clicado el ImageButton que presenta %s.</string>
+    <string name="info_imagebutton_1"> el logo de Android </string>
+    <string name="info_imagebutton_2"> la imagen de la camara   </string>
+    <string name="info_imagebutton_3"> la imagen del GPS </string>
+    <string name="info_imagebutton_4"> el Drawable definido en button_android.xml </string>
+    <string name="info_imagebutton_5"> el Drawable definido en button_dialog.xml </string>
+    <string name="info_imagebutton_6"> el Drawable definido en button_rating_star.xml  </string>
+    
+        <!-- TextViews -->
+    <string name="radio_noexlusivo">RadioButton no exclusivo</string>
+    <string name="radio_exlusivo">RadioButton exclusivo</string>
+    <string name="checkboxGroup">Linea de Checkboxes</string>
+    <string name="toogle">Grupo de ToogleButtons</string>
+    <string name="botones">Botones de texto</string>
+    <string name="imageButtonA">ImageButtons</string>
+    <string name="imageButtonB">ImageButtons con 3 estados</string>
+    
+    <!-- Plantillas -->
+    <string name="plantilla_mensaje_nuevaseleccion"> Has seleccionado el RadioButton \'%s\'. No habia seleccion previa. </string>
+    <string name="plantilla_mensaje_seleccioncambiada" formatted="false">  Has seleccionado el RadioButton \'%s\'. La seleccion previa era \'%s\'. </string>
+   
+    
+    <!-- ToogleButtons -->
+    <string name="ssl_toggle_on">Usas SSL</string>
+    <string name="ssl_toggle_off">No usas SSL</string>
+    <string name="gps_toggle_on">GPS On</string>
+    <string name="gps_toggle_off">GPS Off</string>
+    <string name="plantilla_mensaje_togglebutton_simple" > Has clicado el ToggleButton %s. </string>
+    <string name="plantilla_mensaje_togglebutton" formatted="false"> Has clicado el ToggleButton %s. La etiqueta es ahora \'%s\'. </string>
+    
+    <!-- Spinners example -->
+    <string name="spinner_app_name">Spinners (Combo Boxes)</string>
+    <string name="prompt_spinner1">Fabricantes actuales Android (Opciones de XML)</string>
+    <string-array name="entradas_spinner1">
+        <item>Acer</item>
+        <item>Dell</item>
+        <item>HTC</item> 
+        <item>Huawei</item>
+        <item>Kyocera</item>
+        <item>LG</item>
+        <item>Motorola</item>
+        <item>Nexus</item>
+        <item>Samsung</item>
+        <item>Sony Ericsson</item>
+        <item>T-Mobile</item>
+        <item>Neptune</item>
+    </string-array>
+    <string name="plantilla_mensaje_spinner">Has seleccionado \'%s\'.</string>
+    <string name="prompt_spinner2">Fabricantes potenciales Android  (Opciones de Java)</string>
+    
+    <!-- ListView example -->
+    <string name="list_view_app_name">List View</string>
+    <string name="prompt_listview">Fabricantes actuales Android (Opciones de XML)</string>
+    <string name="plantilla_mensaje_listview">Has seleccionado \'%s\'.</string>
+    
+     <!-- GridView example -->
+     
+    <string name="grid_view_app_name">Matriz aleatoria de números</string>
+    <string name="prompt_gridview">Encuentra y selecciona la letra !</string>
+    <string name="plantilla_mensaje_gridview">Has seleccionado \'%s\'.</string>
+
+
+    <string name="menu_cont_op1">Pasar texto item a Mayúsculas</string>
+    <string name="menu_cont_op2">"Mostrar Toast"</string>
+
+
+</resources>
