@@ -22,15 +22,14 @@ public class SpinnerActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.spinners);
         mPlantillaMensajeItemSelected = getString(R.string.plantilla_mensaje_spinner);
-
-        Spinner spinner2 = (Spinner) findViewById(R.id.spinner2);
+        Spinner spinner1 = (Spinner)findViewById(R.id.spinner1);
+        spinner1.setOnItemSelectedListener(new SpinnerInfo());
+        
+        Spinner spinner2 = (Spinner)findViewById(R.id.spinner2);
         List<String> futureAndroidVendors = getFutureAndroidVendors();
 
-        ArrayAdapter<String> spinner2Adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, futureAndroidVendors);
-
+        ArrayAdapter<String> spinner2Adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, futureAndroidVendors);
         spinner2Adapter.setDropDownViewResource(android.R.layout.simple_spinner_item);
-        //spinner2Adapter.setDropDownViewResource(android.R.layout.simple_list_item_1);
-
         spinner2.setAdapter(spinner2Adapter);
         spinner2.setOnItemSelectedListener(new SpinnerInfo());
     }
