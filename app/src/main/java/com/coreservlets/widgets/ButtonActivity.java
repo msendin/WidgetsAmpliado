@@ -72,56 +72,7 @@ public class ButtonActivity extends Activity {
     	showToast(message);
     }
 
-    /*public void textoRadio(RadioButton radio) {
-    	CharSequence text = radio.getText();
-    	String message = String.format(mPlantillaMensajeRadio, text);
-    	showToast(message);
-    }*/
-
-    
-    /*public void muestraTextoCheck(View clickedButton) { 
-        CheckBox check = (CheckBox)clickedButton;
-        CharSequence text = check.getText();
-        String status;
-        if (check.isChecked())
-        		status = "Habilitado";
-        else
-        	status = "Deshabilitado";
-        String message = String.format(mPlantillaMensajeCheck, text, status);
-        showToast(message);
-    }
-    
-    public void muestraTextoRadio(View clickedButton) { 
-        RadioButton radio = (RadioButton)clickedButton;
-        CharSequence text = radio.getText();
-        String message = String.format(mPlantillaMensajeRadio, text);
-        showToast(message);
-    }*/
-    
-    /*public void muestraInfoImageButton1(View clickedImageButton) {
-    	muestraInfoImageButton(R.string.info_imagebutton_1);
-    }
-    
-    public void muestraInfoImageButton2(View clickedImageButton) {
-    	muestraInfoImageButton(R.string.info_imagebutton_2);
-    }
-    
-    public void muestraInfoImageButton3(View clickedImageButton) {
-    	muestraInfoImageButton(R.string.info_imagebutton_3);
-    }
-    
-    public void muestraInfoImageButton4(View clickedImageButton) {
-    	muestraInfoImageButton(R.string.info_imagebutton_4);
-    }
-    
-    public void muestraInfoImageButton5(View clickedImageButton) {
-    	muestraInfoImageButton(R.string.info_imagebutton_5);
-    }
-    
-    public void muestraInfoImageButton6(View clickedImageButton) {
-    	muestraInfoImageButton(R.string.info_imagebutton_6);
-    }*/
-    
+     
     public void muestraInfoImageB (View clickedImageButton) {
     	String imageString="";
     	ImageButton imgb = (ImageButton) clickedImageButton;
