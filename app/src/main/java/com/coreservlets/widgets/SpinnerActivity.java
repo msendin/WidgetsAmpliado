@@ -34,22 +34,7 @@ public class SpinnerActivity extends Activity {
         spinner2.setAdapter(spinner2Adapter);
         spinner2.setOnItemSelectedListener(new SpinnerInfo());
     }
-
-    // la punta fletxa cap abaix
-    //ArrayAdapter<String> spinner2Adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, futureAndroidVendors);
-    // la fletxa sencera grossa cap a baix, marcador circular I lletres negres
-    //ArrayAdapter<String> spinner2Adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, futureAndroidVendors);
-    // la fletxa sencera grossa cap a baix illetres blanques, respectivam
-
-
-        /*RatingBar rb = (RatingBar)findViewById(R.id.ratingbar);
-        rb.setOnRatingBarChangeListener(new OnRatingBarChangeListener()( {
-        	public void onRatingChange (RatingBar rb, float rating, boolean fromuser) {
-        		Toast.makeText(this, "New rating", Toast.LENGTH_LONG).show();
-        	}
-        });*/
-
-    
+  
     private void showToast(String text) {
         Toast.makeText(this, text, Toast.LENGTH_LONG).show();
     }
