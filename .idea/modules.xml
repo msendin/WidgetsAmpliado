@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/WidgetsBasicCompSelectionIncp.iml" filepath="$PROJECT_DIR$/WidgetsBasicCompSelectionIncp.iml" group="WidgetsBasicCompSelectionIncp" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="WidgetsBasicCompSelectionIncp/app" />
+      <module fileurl="file://$PROJECT_DIR$/WidgetsBasicCompSelectionIncp.iml" filepath="$PROJECT_DIR$/WidgetsBasicCompSelectionIncp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/WidgetsBasicCompSelectionIncp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/WidgetsBasicCompSelectionIncp.app.iml" />
     </modules>
   </component>
 </project>

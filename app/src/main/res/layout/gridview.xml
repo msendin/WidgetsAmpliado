@@ -18,20 +18,11 @@
         android:layout_below="@id/textview"
         android:layout_centerHorizontal="true"
         android:numColumns="3"
-        android:columnWidth="200px"
+        android:columnWidth="200dp"
         android:horizontalSpacing="5dp"
         android:verticalSpacing="20dp"
         android:stretchMode="columnWidth"  />
     
-    <!-- TextEdit 
-    
-    <RatingBar 
-        android:id="@+id/ratingbar"
-        android:layout_width="wrap_content" 
-        android:layout_height="wrap_content"
-        android:numStars="5"
-        android:stepSize="1.0"/>
-        
-        -->
+
         
 </RelativeLayout>

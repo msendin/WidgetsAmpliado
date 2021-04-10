@@ -29,5 +29,5 @@ public class WidgetsInitialActivity extends Activity {
     	Intent in = new Intent(this, SpinnerActivity.class);
         startActivity(in);
     }
-    
+
 }
