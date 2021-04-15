@@ -21,7 +21,6 @@ public class ButtonActivity extends Activity {
     private String mPlantillaMensajeBoton;
     private String mPlantillaMensajeImageBoton;
     private String mPlantillaMensajeCheck;
-    private String mPlantillaMensajeRadio;
     private String mPlantillaMensajeToggleBoton;
 
     
@@ -31,7 +30,6 @@ public class ButtonActivity extends Activity {
         setContentView(R.layout.buttons); 
         mPlantillaMensajeBoton = getString(R.string.plantilla_mensaje_boton);
         mPlantillaMensajeCheck = getString(R.string.plantilla_mensaje_check);
-        mPlantillaMensajeRadio = getString(R.string.plantilla_mensaje_radio);
         mPlantillaMensajeImageBoton = getString(R.string.plantilla_mensaje_imagebutton);
         mPlantillaMensajeToggleBoton = getString(R.string.plantilla_mensaje_togglebutton);
         RadioGroup radioGroup = findViewById(R.id.radio_group);
@@ -127,8 +125,8 @@ public class ButtonActivity extends Activity {
     private class RadioGroupInfo implements OnCheckedChangeListener {
 
         private RadioButton mLastChecked;
-        private String mPlantillaMensajeNuevaSeleccion;
-        private String mPlantillaMensajeSeleccionCambiada;
+        private final String mPlantillaMensajeNuevaSeleccion;
+        private final String mPlantillaMensajeSeleccionCambiada;
         
         public RadioGroupInfo() {
         	mPlantillaMensajeNuevaSeleccion = getString(R.string.plantilla_mensaje_nuevaseleccion);
